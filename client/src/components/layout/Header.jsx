@@ -29,7 +29,7 @@ export default function Header({ user, onMenuToggle }) {
     localStorage.clear();
 
     if (role === "admin" || role === "staff") {
-      navigate("/admin-login");
+      navigate("/app-admin-login");
     } else {
       navigate("/login");
     }
